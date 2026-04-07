@@ -1,4 +1,4 @@
-#nomes grupo:
+# Nomes grupo:
 
 - Kaique Ziantoni Guedes Rosa
 - Allyson Victor
