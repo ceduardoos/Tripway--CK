@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripWay | Contato</title>
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Home</a>
+
+        <ul>
+            <li><a href="destinos.html">Destinos</a></li>
+            <li><a href="pacotes.html">Pacotes ou Serviços</a></li>
+            <li><a href="contato.html">Contato / Reserva</a></li>
+        </ul>
+
+    </nav>
+
+    <main>
+        <section>
+            <h1>Formulario</h1>
+            <form>
+                <!-- pedido do nome -->
+                <label for="name">Nome</label>
+                <input type="text" id="name" placeholder="seu nome completo">
+
+                <!-- solicitação do email -->
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="seu email de cadastro">
+
+                <!-- mostrará as opções dos destinos disponiveis -->
+                <label for="destiny">Destino</label>
+                <select id="destiny">
+                    <option value="BH">Bahia</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="PR">Curitiba</option>
+                    
+                </select>
+
+                <!--solicitação da data de viagem -->
+                <label for="date">Data</label>
+                <input type="date" id="date" placeholder="data da viagem">
+
+                <!--quantidade de pessoas para a viagem-->
+                <label for="people">Quantidade de Pessoas</label>
+                <input type="number" id="people">
+
+                <!--uma entrada para uma mensagem do usuario-->
+                <label for="messenger">Mensagem</label>
+                <input type="text" id="messenger" placeholder="uma mensagem para a nossa equipe.">
+
+                <!--botão de envio do formulario-->
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+    </main>
+    
+    
+</body>
+</html>
