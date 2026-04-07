@@ -3,28 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>TripWay</title>
 </head>
-<body>
+<body style="font-family: Poppins;">
     <a href="">Home</a>
+
     <nav>
         <ul>
             <li><a href="">Destinos</a></li>
             <li><a href="">Pacotes ou serviços</a></li>
             <li><a href="">Contato / Reserva</a></li>
         </ul>
+    </nav>
         <main>
             <section>
                 <header>
                     <h1>Bem vindo a TripWay</h1>
-                    <p>Somos a TripWay, a companhia de viagens que conecta os viajantes, ao seu destino.</p>
+                    <h2>A companhia de viagens que conecta os viajantes ao seu destino.</h2>
                 </header>
             </section>
             <section>
                 <img src="images/logo.jpg" width="400" height="300" alt="Logo da empresa">
+                <p>Somos a empresa que mais conecta viajantes ao seu destino, com 25 anos de experiência em turismo <br> 
+                estamos sempre focados em entregar a melhor experiência para nossos usuários.</p>
             </section>
         </main>
-    </nav>
+        <footer>
+            <h3>Contatos:</h3>
+            <ul>
+               <li> Telefone: 99999-9999</li>
+               <li>email: tripway@trip.com.br</li>
+               <li>OU insira seus dados e entraremos em contato:
+                <form>
+                    <label for="Telefone">Telefone:</label>
+                    <input type="text" placeholder="Digite seu telefone" required>
+                    <br>
+                    <label for="Email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+
+                </form>
+               </li>
+            </ul>
+        </footer>
+
     
 </body>
 </html>
