@@ -134,13 +134,14 @@ header h2{
     margin-top: 6vh;
     color: #ff985d;
     font-family: var(--fonte-principal);
+    text-align: center;
 
 }
 .destinos-botao-inicial{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1vh;
+    gap: 1.5vh;
     flex-direction: column;
 }
 .ofter-trip{
@@ -150,11 +151,18 @@ header h2{
 
 }
 .botao-lugar{
-    border: 2px solid #000000;
+    border: 1.9px solid #000000;
     padding: 1vh;
     border-radius: 15px;
-    background-color: #00b7ff;
-
+    background: linear-gradient(200deg, rgb(16, 114, 234),rgba(255, 255, 255, 0.608));
+    font-family: var(--fonte-principal);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    transition: transform 0.4s ease;
+}
+.botao-lugar:hover{
+    color: #006b95;
+    transform: scale(1.2);
 }
 
 
