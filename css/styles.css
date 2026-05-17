@@ -54,7 +54,7 @@ body::before {
 main{
     display: flex;
     flex-direction: column;
-    gap: 30vh;
+    gap: 5vh;
     padding: 3%;
 }
 
@@ -63,7 +63,7 @@ main{
     align-items: center;
     justify-content: center;
     height: 15vh;
-    gap: 25vh;
+    gap: 2vh;
     
 }
 .paginas{
@@ -73,8 +73,8 @@ main{
 }
 
 .img-cabecalho{
-    height:100%;
-    width: 20%;
+    height:200%;
+    width: 40%;
     margin-right: 100px;
 
 }
@@ -120,6 +120,7 @@ main{
     padding:0  10vh;
     height: 5vh;
     padding-top: 1.3vh;
+    font-weight: bold;
 }
 
 header h1{
@@ -163,6 +164,18 @@ header h2{
     gap: 1.5vh;
     flex-direction: column;
 }
+
+.destinos-botao-inicial h3{
+    font-size: 3vh;
+    display: flex;
+    color: var(--cor-titulo);
+    font-family: var(--fonte-titulo);
+    background: linear-gradient(90deg, #0082b1, #ffb7277f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    justify-content: center;
+}
 .ofter-trip{
     display: flex;
     gap: 20px;
@@ -184,5 +197,27 @@ header h2{
     transform: scale(1.2);
 }
 
+.img-tela-inicial{
+    height: 350px;
+    width: 450px;
+    border-radius: 25%;
+}
+.texto-destinos h3{
+    font-size: 3vh;
+    display: flex;
+    color: var(--cor-titulo);
+    font-family: var(--fonte-titulo);
+    background: linear-gradient(90deg, #0082b1, #ffb7277f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    justify-content: center;
+}
+.container1-img{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: row;
 
-
+}
