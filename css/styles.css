@@ -58,14 +58,19 @@ main{
     padding: 3%;
 }
 
-.cabecalho{
+
+.cabecalho-principal{
+    display: block; 
+}
+
+.navegacao-container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 15vh;
     gap: 2vh;
-    
 }
+
 .paginas{
     display: flex;
     flex-direction: row;
@@ -75,8 +80,8 @@ main{
 .img-cabecalho{
     height:200%;
     width: 40%;
-
 }
+
 .link-cabecalho{
     position: relative;
     display: inline-block;
@@ -108,7 +113,6 @@ main{
     width: 100%;
 }
 
-
 .telefone-email{
     display: flex;
     flex-direction: row;
@@ -122,7 +126,7 @@ main{
     font-weight: bold;
 }
 
-header h1{
+.texto-principal h1{
     font-size: 5vh;
     display: flex;
     color: var(--cor-titulo);
@@ -132,7 +136,8 @@ header h1{
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-header h2{
+
+.texto-principal h2{
     display: flex;
     color: var(--cor-titulo);
     font-family: var(--fonte-titulo);
@@ -141,6 +146,7 @@ header h2{
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
 .texto-principal{
     display: flex;
     flex-direction: column;
@@ -154,8 +160,8 @@ header h2{
     font-size: 1.8vh;
     font-family: var(--fonte-principal);
     text-align: center;
-
 }
+
 .destinos-botao-inicial{
     display: flex;
     align-items: center;
@@ -174,12 +180,10 @@ header h2{
     -webkit-text-fill-color: transparent;
     background-clip: text;
     justify-content: center;
-
 }
 .ofter-trip{
     display: flex;
     gap:20px;
-    
 }
 
 .botao-lugar{
@@ -212,16 +216,13 @@ header h2{
     -webkit-text-fill-color: transparent;
     background-clip: text;
     justify-content: center;
-    
 }
 .container1-img{
     display: flex;
-    gap: 20px;
     justify-content: center;
     margin-top: 50px;
     flex-direction: row;
     gap: 10px;
-
 }
 
 .container1-img a{
@@ -233,8 +234,6 @@ header h2{
     font-family: var(--fonte-principal);
     width: 15vh;
     border-radius: 15px;
-
-
 }
 .container1-img ul{
     display: flex;
@@ -247,14 +246,19 @@ header h2{
     color: #00394f;
     display: flex;
     flex-direction: column;
-    border:3px solid #00394f;
+    border: 3px solid #00394f;
     border-radius: 20px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
-.container1-img h3,p{
+.container2:hover {
+    transform: translateY(-19px); 
+    box-shadow: 0px 15px 25px rgb(0, 213, 255); 
+}
+.container1-img h3, .container1-img p{ 
     justify-content: center;
     display: flex;
     text-align: start;
-
 }
 .container2 li{
     gap: 50px;
