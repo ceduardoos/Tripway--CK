@@ -13,7 +13,7 @@
     --fonte-titulo: 'Fira Sans', sans-serif;
     --cor-texto:rgb(26, 2, 2);
     --cor-titulo:#00000079;
-    --cor-secundaria-background:linear-gradient(135deg, rgb(16, 114, 234), rgba(255, 230, 206, 0.608),rgba(246, 153, 65, 0.608)) ;
+    --cor-secundaria-background:linear-gradient(135deg, rgb(16, 114, 234), rgba(255, 255, 255, 0.608),rgba(231, 119, 14, 0.608)) ;
 }
 ol, ul {
     list-style: none;
@@ -30,9 +30,27 @@ img {
 }
 
 body {
-    background: var(--cor-primaria-background);
+  background: var(--cor-secundaria-background); 
+  position: relative;
+  min-height: 100vh;
+  margin: 0; 
 }
 
+body::before {
+  content: "";
+  position: fixed; 
+  top: 0;
+  right: 0; 
+  width: 20%; 
+  height: 100%; 
+  z-index: -1; 
+  background-image: url('../images/background.png');
+  background-size: cover; 
+  background-position: right center;
+  opacity: 0.4; 
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 40%);
+  mask-image: linear-gradient(to right, transparent 0%, black 40%);
+}
 main{
     display: flex;
     flex-direction: column;
@@ -41,11 +59,10 @@ main{
 }
 
 .cabecalho{
-    background: var(--cor-secundaria-background);
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 16vh;
+    height: 15vh;
     gap: 25vh;
     
 }
@@ -58,6 +75,7 @@ main{
 .img-cabecalho{
     height:100%;
     width: 20%;
+    margin-right: 100px;
 
 }
 .link-cabecalho{
@@ -69,6 +87,7 @@ main{
     transition: color 0.4s ease; 
     font-size: 2.3vh;
     font-family: var(--fonte-titulo);
+    border-bottom: 3px solid #188fff66;
 }
 .link-cabecalho::before{
     content: '';
@@ -130,9 +149,9 @@ header h2{
 .paragrafo-index{
     display: flex;
     justify-content: center;
-    font-style: oblique;
-    margin-top: 6vh;
-    color: #ff985d;
+    margin-top: 4vh;
+    color: #206f01b2;
+    font-size: 1.8vh;
     font-family: var(--fonte-principal);
     text-align: center;
 
@@ -154,7 +173,7 @@ header h2{
     border: 1.9px solid #000000;
     padding: 1vh;
     border-radius: 15px;
-    background: linear-gradient(200deg, rgb(16, 114, 234),rgba(255, 255, 255, 0.608));
+    background: linear-gradient(200deg, rgb(0, 115, 255),rgb(255, 255, 255));
     font-family: var(--fonte-principal);
     color: rgb(0, 0, 0);
     font-weight: bold;
