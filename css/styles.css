@@ -54,7 +54,7 @@ body::before {
 main{
     display: flex;
     flex-direction: column;
-    gap: 5vh;
+    gap: 10vh;
     padding: 3%;
 }
 
@@ -75,7 +75,6 @@ main{
 .img-cabecalho{
     height:200%;
     width: 40%;
-    margin-right: 100px;
 
 }
 .link-cabecalho{
@@ -175,13 +174,14 @@ header h2{
     -webkit-text-fill-color: transparent;
     background-clip: text;
     justify-content: center;
+
 }
 .ofter-trip{
     display: flex;
-    gap: 20px;
+    gap:20px;
     
-
 }
+
 .botao-lugar{
     border: 1.9px solid #000000;
     padding: 1vh;
@@ -200,9 +200,9 @@ header h2{
 .img-tela-inicial{
     height: 350px;
     width: 450px;
-    border-radius: 25%;
+    border-radius: 5%;
 }
-.texto-destinos h3{
+.texto-destinos h2{
     font-size: 3vh;
     display: flex;
     color: var(--cor-titulo);
@@ -212,12 +212,50 @@ header h2{
     -webkit-text-fill-color: transparent;
     background-clip: text;
     justify-content: center;
+    
 }
 .container1-img{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     justify-content: center;
     margin-top: 50px;
     flex-direction: row;
+    gap: 10px;
 
+}
+
+.container1-img a{
+    border: 2px solid #00bbff;
+    background-color: #006b95;
+    color: aliceblue;
+    padding: 10px;
+    display: flex;
+    font-family: var(--fonte-principal);
+    width: 15vh;
+    border-radius: 15px;
+
+
+}
+.container1-img ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2{
+    color: #00394f;
+    display: flex;
+    flex-direction: column;
+    border:3px solid #00394f;
+    border-radius: 20px;
+}
+.container1-img h3,p{
+    justify-content: center;
+    display: flex;
+    text-align: start;
+
+}
+.container2 li{
+    gap: 50px;
 }
