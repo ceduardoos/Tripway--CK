@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+:root{
+    --cor-primaria:linear-gradient(135deg, rgb(86, 213, 245), rgba(255, 136, 0, 0.599));
+    --cor-texto:
+    --cor-secundaria-background: ;
+}
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    background: var(--cor-primaria);
+}
+
+.cabecalho{
+    background: linear-gradient(133deg, rgb(86, 213, 245), rgba(255, 136, 0, 0.399));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22vh;
+    gap: 25vh;
+}
+
+.img-cabecalho{
+    height:150px;
+    width: 400px;
+}

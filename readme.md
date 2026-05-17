@@ -1,5 +1,7 @@
-# Nomes grupo:                     
+# nomes grupo:
 
-- Kaique Ziantoni Guedes Rosa     - 570294
-- Allyson Victor                  - 571046
-- Carlos Eduardo Silva            - 569103
+```- Kaique Ziantoni Guedes Rosa 
+    RM 570293 ```
+
+- Allyson Victor
+- Carlos Eduardo Silva
