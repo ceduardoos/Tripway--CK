@@ -54,7 +54,7 @@ body::before {
 main{
     display: flex;
     flex-direction: column;
-    gap: 30vh;
+    gap: 10vh;
     padding: 3%;
 }
 
@@ -63,7 +63,7 @@ main{
     align-items: center;
     justify-content: center;
     height: 15vh;
-    gap: 25vh;
+    gap: 2vh;
     
 }
 .paginas{
@@ -73,9 +73,8 @@ main{
 }
 
 .img-cabecalho{
-    height:100%;
-    width: 20%;
-    margin-right: 100px;
+    height:200%;
+    width: 40%;
 
 }
 .link-cabecalho{
@@ -120,6 +119,7 @@ main{
     padding:0  10vh;
     height: 5vh;
     padding-top: 1.3vh;
+    font-weight: bold;
 }
 
 header h1{
@@ -163,12 +163,25 @@ header h2{
     gap: 1.5vh;
     flex-direction: column;
 }
-.ofter-trip{
+
+.destinos-botao-inicial h3{
+    font-size: 3vh;
     display: flex;
-    gap: 20px;
-    
+    color: var(--cor-titulo);
+    font-family: var(--fonte-titulo);
+    background: linear-gradient(90deg, #0082b1, #ffb7277f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    justify-content: center;
 
 }
+.ofter-trip{
+    display: flex;
+    gap:20px;
+    
+}
+
 .botao-lugar{
     border: 1.9px solid #000000;
     padding: 1vh;
@@ -184,5 +197,65 @@ header h2{
     transform: scale(1.2);
 }
 
+.img-tela-inicial{
+    height: 350px;
+    width: 450px;
+    border-radius: 5%;
+}
+.texto-destinos h2{
+    font-size: 3vh;
+    display: flex;
+    color: var(--cor-titulo);
+    font-family: var(--fonte-titulo);
+    background: linear-gradient(90deg, #0082b1, #ffb7277f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    justify-content: center;
+    
+}
+.container1-img{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.container1-img a{
+    border: 2px solid #00bbff;
+    background-color: #006b95;
+    color: aliceblue;
+    padding: 10px;
+    display: flex;
+    font-family: var(--fonte-principal);
+    width: 15vh;
+    border-radius: 15px;
 
 
+}
+.container1-img ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2{
+    color: #00394f;
+    display: flex;
+    flex-direction: column;
+    border:3px solid #00394f;
+    border-radius: 20px;
+}
+.container1-img h3,p{
+    justify-content: center;
+    display: flex;
+    text-align: start;
+
+}
+.container2 li{
+    gap: 50px;
+}
