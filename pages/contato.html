@@ -1,78 +1,138 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="../css/styles.css">
+
+
 
     <title>TripWay | Contato</title>
+
     <link rel="stylesheet" href="../css/styles.css">
+
 </head>
+
 <body style="font-family: Poppins;">
-        <section class="infos-inicio">
+
+    <section class="infos-inicio">
+
         <ul class="telefone-email">
+
             <li> Telefone: 99999-9999</li>
+
             <li>email: tripway@trip.com.br</li>
+
         </ul>
+
     </section>
 
+
+
     <div class="cabecalho">
-        <img class="img-cabecalho" src="../images/logo.jpg"  alt="Logo da empresa">
+
+        <img class="img-cabecalho" src="../images/logo.jpg" alt="Logo da empresa">
+
         <a class="link-cabecalho" href="../index.html">Home</a>
-        <nav >
+
+        <nav>
+
             <ul class="paginas">
+
                 <li class="link-cabecalho"><a href="destinos.html">Destinos</a></li>
+
                 <li class="link-cabecalho"><a href="pacotes.html">Pacotes ou serviços</a></li>
+
                 <li class="link-cabecalho"><a href="contato.html">Contato / Reserva</a></li>
+
             </ul>
+
         </nav>
+
     </div>
+
+
 
     <main>
 
+
+
         <section>
+
             <header class="texto-principal">
+
                 <h1>Formulario</h1>
+
                 <h2>faça sua reserva aqui</h2>
+
                 <p>preencha o formulario abaixo para reservar sua viagem</p>
+
             </header>
+
             <form>
-                <!-- pedido do nome -->
+
                 <label for="name">Nome</label>
+
                 <input type="text" id="name" placeholder="Seu nome completo" required>
 
-                <!-- solicitação do email -->
+
+
                 <label for="email">E-mail</label>
+
                 <input type="email" id="email" placeholder="Seu email de cadastro" required>
 
-                <!-- mostrará as opções dos destinos disponiveis -->
+
+
                 <label for="destiny">Destino</label>
+
                 <select id="destiny" required>
+
                     <option value="BH">Bahia</option>
+
                     <option value="PE">Pernambuco</option>
+
                     <option value="PR">Sergipe</option>
-                    
+
+
                 </select>
 
-                <!--solicitação da data de viagem -->
+
+
                 <label for="date">Data</label>
+
                 <input type="date" id="date" placeholder="data da viagem" required>
 
-                <!--quantidade de pessoas para a viagem-->
+
+
                 <label for="people">Quantidade de Pessoas</label>
+
                 <input type="number" id="people" required>
 
-                <!--uma entrada para uma mensagem do usuario-->
+
+
                 <label for="messenger">Mensagem</label>
+
                 <input type="text" id="messenger" placeholder="uma mensagem para a nossa equipe." required>
 
-                <!--botão de envio do formulario-->
+
+
                 <button type="submit">Enviar</button>
 
+
+
             </form>
+
         </section>
+
     </main>
-    
-    
+
+
+
 </body>
+
 </html>
