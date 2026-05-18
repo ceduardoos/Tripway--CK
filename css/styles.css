@@ -67,19 +67,36 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 15vh;
-    gap: 2vh;
+    min-height: 15vh;
+    height: auto;
+    gap: clamp(12px, 2vw, 28px);
+    padding: 0 3%;
 }
 
-.paginas{
+.paginas {
     display: flex;
     flex-direction: row;
-    gap: 20vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(16px, 5vw, 90px);
 }
 
-.img-cabecalho{
-    height:200%;
-    width: 40%;
+.img-cabecalho {
+    width: clamp(140px, 24vw, 260px);
+    height: auto;
+    max-height: 14vh;
+    object-fit: contain;
+}
+
+.ofter-trip,
+.container1-img {
+    flex-wrap: wrap;
+}
+
+.img-tela-inicial {
+    width: min(450px, 100%);
+    height: 350px;
+    object-fit: cover;
 }
 
 .link-cabecalho{
