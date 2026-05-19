@@ -6,27 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tripway | Destinos</title>
     <link rel="stylesheet" href="../css/styles.css">
-
 </head>
 
 <body>
-    <section class="infos-inicio">
-        <ul class="telefone-email">
-            <li> Telefone: 99999-9999</li>
-            <li>email: tripway@trip.com.br</li>
-        </ul>
-    </section>
-    <div class="cabecalho">
-        <img class="img-cabecalho" src="../images/logo.jpg" alt="Logo da empresa">
-        <a class="link-cabecalho" href="../index.html">Home</a>
-        <nav>
-            <ul class="paginas">
-                <li class="link-cabecalho"><a href="destinos.html">Destinos</a></li>
-                <li class="link-cabecalho"><a href="pacotes.html">Pacotes ou serviços</a></li>
-                <li class="link-cabecalho"><a href="contato.html">Contato / Reserva</a></li>
+    <header class="cabecalho-principal">
+        <section class="infos-inicio">
+            <ul class="telefone-email">
+                <li>Telefone: 99999-9999</li>
+                <li>Email: tripway@trip.com.br</li>
             </ul>
-        </nav>
-    </div>
+        </section>
+
+        <div class="navegacao-container">
+            <img class="img-cabecalho" src="../images/logo.png" alt="Logo da empresa TripWay">
+            
+            <nav>
+                <ul class="paginas">
+                    <li class="link-cabecalho"><a href="index.html">Home</a></li>
+                    <li class="link-cabecalho"><a href="pages/destinos.html">Destinos</a></li>
+                    <li class="link-cabecalho"><a href="pages/pacotes.html">Pacotes ou serviços</a></li>
+                    <li class="link-cabecalho"><a href="pages/contato.html">Contato / Reserva</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
     <main>
 
@@ -36,6 +39,7 @@
                 <h2>Confira os melhores destinos no nosso site</p>
             </header>
         </section>
+        //----------------------------------------------
         <section>
             <h1>Bahia</h1>
             <p>A Bahia é um destino marcado pela mistura de cultura, história e paisagens inesquecíveis. Em Salvador,
@@ -46,6 +50,7 @@
             <img src="../images/Salvador.jpg" width="400" height="300"
                 alt="Imagem do ponto turistico (Elevador Lacerda) situado na cidade de Salvador em Bahia">
         </section>
+        //----------------------------------------------
         <section>
             <h1>Pernambuco</h1>
             <p>Pernambuco é vibrante e cheio de identidade, onde a cultura está presente em cada detalhe. Recife reúne
@@ -57,6 +62,7 @@
             <img src="../images/Marcozero.jpg" width="400" height="300"
                 alt="Imagem do ponto turistico (Marco Zero) situado na cidade de recife em Pernambuco">
         </section>
+        //----------------------------------------------
         <section>
             <h1>Sergipe</h1>
             <p>Sergipe encanta pela simplicidade, tranquilidade e beleza natural. Em Aracaju, a Orla de Atalaia é um dos
@@ -68,9 +74,24 @@
             <img src="../images/OrlaSE.jpg" width="400" height="300"
                 alt="Imagem do ponto turistico (Orla de Atalaia) situado na cidade de Aracaju em Sergipe">
         </section>
-
-
     </main>
+
+    <footer>
+        <h3>Contatos:</h3>
+        <p>Insira seus dados e entraremos em contato:</p>
+
+        <form action="#" method="POST">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone" required>
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </footer>
+
 
 </body>
 
