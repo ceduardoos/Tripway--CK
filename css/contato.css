@@ -11,3 +11,53 @@ main form {
     border: 2px solid rgba(0, 130, 177, 0.2);
 }
 
+main form label {
+    font-family: var(--fonte-principal, sans-serif);
+    font-size: 16px;
+    color: #00394f; 
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+main form input, 
+main form select,
+main form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    font-family: var(--fonte-principal, sans-serif);
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    border: 1px solid #b3d4e0;
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+main form input#messenger {
+    padding-bottom: 60px; 
+}
+
+main form button[type="submit"] {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 18px;
+    font-family: var(--fonte-titulo, sans-serif);
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(90deg, #0082b1, #ffb727);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+main form button[type="submit"]:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 20px rgba(0, 130, 177, 0.4);
+}
+
+
+
+
