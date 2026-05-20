@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
     <title>TripWay</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/destinos.css">
+    <link rel="stylesheet" href="../css/contato.css">
 
 </head>
 
@@ -34,55 +35,56 @@
     </header>
 
     <main>
-        <section class="texto-principal">
-    
-            <h1>Pacotes e Serviços</h1>
-            <h2>Conheça nossa variedade de pacotes de serviços especialmente para você</h2>
-        
+        <section class="apresentacao-destinos">
+            <header class="texto-principal">
+                <h1>Pacotes e Serviços</h1>
+                <h2>Conheça nossa variedade de pacotes de serviços especialmente para você</h2>
+                <p class="paragrafo-index">Escolha entre destinos com cultura, praias, história e paisagens especiais para sua próxima viagem.</p>
+            </header>
         </section>
 
-        <section>
-            <ul>
-                <li>
+        <section class="texto-destinos destinos-pagina">
+            <ul class="container1-img">
+                <li class="container2 destino-card">
                     <h3>Hotel / 3 noites (café da manhã incluso)</h3>
-                    <img src="../images/pacote1.jpg" width="600" height="300" alt="imagem de um de nossos parceiros ">
+                    <img class="img-tela-inicial" src="../images/pacote1.jpg" alt="imagem de um de nossos parceiros ">
                     <p>Escapada de 3 noites no paraiso: Aqui você ira aproveitar 3 noites com piscina aquecida, café da
                     manhã premium, com café da manhã e vista para o mar, acesso ao Spa, e jantar romantico como
                     cortesia. <br> Perfeito para quem busca sair da mesmisse </p>
                     <form>
-                    <label for="data">Verifique os valores para as datas de sua preferência:</label>
-                    <input type="date">
-                    <button type="submit">Verificar disponibilidade</button>
+                        <label for="data">Verifique os valores para as datas de sua preferência:</label>
+                        <input type="date">
+                        <button type="submit">Verificar disponibilidade</button>
                     </form>
                 </li>
 
-                <li>
+                <li class="container2 destino-card">
                     <h3>Paraiso na Praia / 5 Dias de Relaxamento</h3>
-                    <img src="../images/pacotePraia.jpg" width="600" height="300" alt="Imagem de uma vista ao mar">
+                    <img src="../images/pacotePraia.jpg" alt="Imagem de uma vista ao mar">
                     <p>Desfrute de dias inesquecíveis em um verdadeiro paraíso tropical! O Pacote Paraiso na Praia foi criado para quem busca descanso, diversão e paisagens incríveis à beira-mar.</p>
                     <form action="">
-                    <label for="data">Verifique os valores para as datas de sua preferência:</label>
-                    <input type="date">
-                    <button type="submit">Verificar disponibilidade</button>
+                        <label for="data">Verifique os valores para as datas de sua preferência:</label>
+                        <input type="date">
+                        <button type="submit">Verificar disponibilidade</button>
                     </form>
                 </li>
 
-                <li>
+                <li class="container2 destino-card">
                     <h3>Aventura Extrema / 7 Dias de Emoção</h3>
-                    <img src="../images/pacoteAventura.jpeg" width="600" height="300" alt="Imagem de uma trilhas">
+                    <img src="../images/pacoteAventura.jpeg" alt="Imagem de uma trilhas">
                     <p>Vivencie uma experiência única com o Pacote Aventura Extrema! Hospede-se em uma pousada localizada próxima a trilhas, rios e paisagens naturais deslumbrantes. Explore a natureza através de caminhadas guiadas, atividades radicais e experiências ao ar livre, tanto durante o dia quanto à noite.</p>
                     <form action="">
-                    <label for="data">Verifique os valores para as datas de sua preferência:</label>
-                    <input type="date">
-                    <button type="submit">Verificar disponibilidade</button>
+                        <label for="data">Verifique os valores para as datas de sua preferência:</label>
+                        <input type="date">
+                        <button type="submit">Verificar disponibilidade</button>
                     </form>
                 </li>
 
-                <li>
+                <li class="container2 destino-card">
                     <h3>Viagens Internacionais</h3>
-                    <img src="../images/pacoteInternacional.jpg" width="600" height="300" alt="Imagem da Maldivas">
+                    <img src="../images/pacoteInternacional.jpg" alt="Imagem da Maldivas">
                     <p>Vivencie momentos inesquecíveis com o Pacote Internacional! Conheça novos países, explore pontos turísticos famosos e mergulhe em diferentes culturas ao redor do mundo. Hospede-se em hotéis confortáveis e aproveite passeios planejados para tornar sua viagem ainda mais especial.</p>
-                    <form action="">
+                    <form>
                         <label for="destino">Selecione o pais desejado</label>
                         <select>
                             <option value="rom">Roma</option>
@@ -97,48 +99,48 @@
                     </form>
                 </li>
 
-                <li>
+                <li class="container2 destino-card">
                     <h3>Serviço de vãs ida e volta do Hotel</h3>
-                    <img src="../images/vã.jpg" width="600" height="300" alt="Imagem de uma vã">
+                    <img src="../images/vã.jpg" alt="Imagem de uma vã">
                     <p>Serviço de vã com horario marcado na busca do aeroporto, com tudo pensado para transformar até seu
                     transporte em uma experiencia única, do começo ao final da sua viagem.</p>
-                    <form action="">
-                    <label for="va">Selecione o horario da sua chegada</label>
-                    <input type="time" name="va" id="va">
-                    <button type="submit">Verificar disponibilidade</button>
+                    <form>
+                        <label for="va">Selecione o horario da sua chegada</label>
+                        <input type="time" name="va" id="va">
+                        <button type="submit">Verificar disponibilidade</button>
                     </form>
                 </li>
 
-                <li>
-                    <h2>Serviço de consultoria de viagem</h2>
-                    <img src="../images/servicoViagem.jpg" width="600" height="300" alt="Imagem de uma consultora de viagem">
+                <li class="container2 destino-card">
+                    <h3>Serviço de consultoria de viagem</h3>
+                    <img src="../images/servicoViagem.jpg" alt="Imagem de uma consultora de viagem">
                     <p>Planeje sua viagem com mais segurança, conforto e praticidade através do nosso serviço de consultoria de viagem. Nossa equipe auxilia na organização completa do seu roteiro, ajudando você a escolher os melhores destinos, hospedagens, passeios e opções de transporte de acordo com o seu perfil e orçamento.</p>
-                    <form action="">
+                    <form>
                         <label for="consultoria">Escolha a data para sua consultoria</label>
                         <input type="date" name="consultoria" id="consultoria">
                         <button type="submit">Agendar consultoria</button>
                     </form>
                 </li>
 
-                <li>
+                <li class="container2 destino-card">
                     <h3>Serviço de Reserva de Hospedagem</h3>
-                    <img src="../images/servicoReserva.jpg" width="600" height="300" alt="Imagem de uma recepção">
+                    <img src="../images/servicoReserva.jpg" alt="Imagem de uma recepção">
                     <p>Encontre a hospedagem ideal para sua viagem com praticidade e conforto. Nosso serviço de reserva de hospedagem oferece opções para diferentes estilos e orçamentos, garantindo uma estadia segura e agradável em destinos nacionais e internacionais.</p>
-                    <form action="">
+                    <form>
                         <label for="hospedagem">Selecione a data da sua hospedagem</label>
                         <input type="date" name="hospedagem" id="hospedagem">
                         <button type="submit">Verificar disponibilidade</button>
                     </form>
                 </li>
 
-                <li>
+                <li class="container2 destino-card">
                     <h3>Serviço de Roteiro Personalizado</h3>
-                    <img src="../images/servicoRoteiro.jpg" width="600" height="300" alt="Imagem de um roteiro de viagem">
+                    <img src="../images/servicoRoteiro.jpg" alt="Imagem de um roteiro de viagem">
                     <p>Organize sua estadia com um roteiro completo de hospedagem pensado para
                     oferecer conforto, praticidade e a melhor experiência durante sua viagem.
                     Receba recomendações de locais, horários e acomodações próximas aos
                     principais pontos turísticos do destino escolhido.</p>
-                    <form action="">
+                    <form>
                         <label for="roteiro">Selecione a data da sua viagem</label>
                         <input type="date" name="roteiro" id="roteiro">
                         <button type="submit">Montar roteiro</button>
