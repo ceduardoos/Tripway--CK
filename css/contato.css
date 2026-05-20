@@ -60,4 +60,20 @@ main form button[type="submit"]:hover {
 
 
 
+@media (max-width: 768px) {
+    main form {
+        padding: 25px 20px;
+        width: 100%;
+    }
 
+    main form input, 
+    main form select {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    main form button[type="submit"] {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
