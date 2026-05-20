@@ -45,3 +45,28 @@
         width: 90%;
     }
 }
+
+.apresentacao-destinos {
+    text-align: center;
+}
+
+.destinos-pagina .container1-img {
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.destino-card {
+    width: 30%;
+    padding: 15px;
+}
+
+.destino-card p {
+    padding: 10px;
+    font-family: var(--fonte-principal);
+    text-align: center;
+}
+
+.destino-card h3 {
+    margin-top: 10px;
+    font-family: var(--fonte-titulo);
+}
