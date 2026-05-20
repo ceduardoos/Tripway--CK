@@ -1,0 +1,47 @@
+.destinos-pagina {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.destino-card {
+    width: 30%;
+    min-width: 250px;
+    padding: 15px;
+    border: 3px solid #00394f;
+    border-radius: 20px;
+    color: #00394f;
+    font-family: var(--fonte-principal);
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
+.destino-card:hover {
+    transform: translateY(-10px);
+}
+
+.destino-card img {
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.destino-card h2 {
+    text-align: center;
+    font-family: var(--fonte-titulo);
+}
+
+.destino-card p {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .destinos-pagina {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .destino-card {
+        width: 90%;
+    }
+}
