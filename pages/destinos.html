@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tripway | Destinos</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/destinos.css">
 </head>
 
 <body>
@@ -23,56 +24,66 @@
             <nav>
                 <ul class="paginas">
                     <li class="link-cabecalho"><a href="../index.html">Home</a></li>
-                    <li class="link-cabecalho"><a href="../pages/destinos.html">Destinos</a></li>
-                    <li class="link-cabecalho"><a href="../pages/pacotes.html">Pacotes ou serviços</a></li>
-                    <li class="link-cabecalho"><a href="../pages/contato.html">Contato / Reserva</a></li>
+                    <li class="link-cabecalho"><a href="destinos.html">Destinos</a></li>
+                    <li class="link-cabecalho"><a href="pacotes.html">Pacotes ou serviços</a></li>
+                    <li class="link-cabecalho"><a href="contato.html">Contato / Reserva</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-
     <main>
-
-        <section>
+        <section class="apresentacao-destinos">
             <header class="texto-principal">
                 <h1>Destinos</h1>
-                <h2>Confira os melhores destinos no nosso site</p>
+                <h2>Confira os melhores destinos no nosso site</h2>
+                <p class="paragrafo-index">Escolha entre destinos com cultura, praias, história e paisagens especiais para sua próxima viagem.</p>
             </header>
         </section>
-        <section>
-            <h1>Bahia</h1>
-            <p>A Bahia é um destino marcado pela mistura de cultura, história e paisagens inesquecíveis. Em Salvador,
-                destaque para o Pelourinho, o Elevador Lacerda e o Farol da Barra, onde a história e o mar se encontram.
-                <br> O estado também encanta com suas praias, como Morro de São Paulo, Praia do Forte e Itacaré, além da
-                culinária e da musicalidade que fazem da Bahia um lugar que se sente, não apenas se visita.</p>
 
-            <img src="../images/Salvador.jpg" width="400" height="300"
-                alt="Imagem do ponto turistico (Elevador Lacerda) situado na cidade de Salvador em Bahia">
-        </section>
-        <section>
-            <h1>Pernambuco</h1>
-            <p>Pernambuco é vibrante e cheio de identidade, onde a cultura está presente em cada detalhe. Recife reúne
-                história e modernidade, com atrações como o Marco Zero, o Instituto Ricardo Brennand e o Recife Antigo.
-                <br>Olinda, com suas ladeiras coloridas e igrejas históricas, é um dos pontos mais marcantes do estado,
-                enquanto Porto de Galinhas se destaca pelas piscinas naturais e águas cristalinas do litoral
-                pernambucano.</p>
+        <section class="texto-destinos destinos-pagina">
+            <h2>Conheça nossos destinos:</h2>
+            <ul class="container1-img">
+                <li id="bahia" class="container2 destino-card">
+                    <img class="img-tela-inicial" src="../images/Salvador.jpg" alt="Imagem do Elevador Lacerda na cidade de Salvador, Bahia">
+                    <h3>Bahia</h3>
+                    <p>
+                        A Bahia é um destino marcado pela mistura de cultura, história e paisagens inesquecíveis.
+                        Em Salvador, destaque para o Pelourinho, o Elevador Lacerda e o Farol da Barra.
+                    </p>
+                    <p><strong>Destaques:</strong> praias, história e cultura.</p>
+                    <ul>
+                        <li><a href="contato.html">Tenho interesse</a></li>
+                    </ul>
+                </li>
 
-            <img src="../images/Marcozero.jpg" width="400" height="300"
-                alt="Imagem do ponto turistico (Marco Zero) situado na cidade de recife em Pernambuco">
-        </section>
-        <section>
-            <h1>Sergipe</h1>
-            <p>Sergipe encanta pela simplicidade, tranquilidade e beleza natural. Em Aracaju, a Orla de Atalaia é um dos
-                principais cartões-postais, ideal para caminhadas e lazer à beira-mar. <br> No interior do estado, o
-                impressionante Cânion do Xingó, às margens do Rio São Francisco, oferece uma experiência única em meio à
-                natureza, mostrando que Sergipe, mesmo pequeno, guarda grandes surpresas.</p>
+                <li id="pernambuco" class="container2 destino-card">
+                    <img class="img-tela-inicial" src="../images/Marcozero.jpg" alt="Imagem do Marco Zero na cidade de Recife, Pernambuco">
+                    <h3>Pernambuco</h3>
+                    <p>
+                        Pernambuco reúne história e modernidade, com atrações como o Marco Zero,
+                        o Recife Antigo e as piscinas naturais de Porto de Galinhas.
+                    </p>
+                    <p><strong>Destaques:</strong> história, cultura e litoral.</p>
+                    <ul>
+                        <li><a href="contato.html">Tenho interesse</a></li>
+                    </ul>
+                </li>
 
-
-            <img src="../images/OrlaSE.jpg" width="400" height="300"
-                alt="Imagem do ponto turistico (Orla de Atalaia) situado na cidade de Aracaju em Sergipe">
+                <li id="sergipe" class="container2 destino-card">
+                    <img class="img-tela-inicial" src="../images/OrlaSE.jpg" alt="Imagem da Orla de Atalaia na cidade de Aracaju, Sergipe">
+                    <h3>Sergipe</h3>
+                    <p>
+                        Sergipe encanta pela tranquilidade e beleza natural.
+                        A Orla de Atalaia e o Cânion do Xingó são grandes destaques do estado.
+                    </p>
+                    <p><strong>Destaques:</strong> natureza, tranquilidade e paisagens.</p>
+                    <ul>
+                        <li><a href="contato.html">Tenho interesse</a></li>
+                    </ul>
+                </li>
+            </ul>
         </section>
     </main>
-
     <footer>
         <h3>Contatos:</h3>
         <p>Insira seus dados e entraremos em contato:</p>
@@ -86,10 +97,7 @@
             <br>
             <button type="submit">Enviar</button>
         </form>
-
     </footer>
-
-
 </body>
 
 </html>
