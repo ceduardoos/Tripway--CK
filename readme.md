@@ -1,7 +1,5 @@
 # nomes grupo:
 
-```- Kaique Ziantoni Guedes Rosa 
-    RM 570293 ```
-
-- Allyson Victor
-- Carlos Eduardo Silva
+569103 | Carlos Eduardo Oliveira Silva  <br>
+571046 | Allyson Victor <br>
+570294 | Kaique Ziantoni
